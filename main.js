@@ -118,7 +118,7 @@ const spaceTexture = new THREE.TextureLoader().load('spaceBlack.jpg');
 spaceTexture.minFilter = THREE.LinearFilter;
 scene.background = spaceTexture;
 
-const puppTexture = new THREE.TextureLoader().load('puppbro.jpg');
+const puppTexture = new THREE.TextureLoader().load('puppbro.jifif');
 const puppy = new THREE.Mesh(
   new THREE.SphereGeometry(3,33,33),
   new THREE.MeshStandardMaterial({map:puppTexture})
